@@ -1,6 +1,6 @@
 
 
-/* CSS */
+/* HOME PAGECSS */
 @font-face {
   font-family: Oslosans;
   src: url(./fonts/OsloSansRegular.ttf)
@@ -67,3 +67,5 @@ p{
 .button-19:hover {
   text-decoration: underline;
 }
+
+/* IT SIDE CSS */
