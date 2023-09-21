@@ -1,8 +1,11 @@
 import React from 'react'
+import TilbakeKnapp from '../components/tilbakeKnapp'
 
 const geofag = () => {
   return (
-    <div>geofag</div>
+    <div>
+        <TilbakeKnapp />
+    </div>
   )
 }
 

@@ -1,9 +1,10 @@
 import React from 'react'
+import TilbakeKnapp from '../components/tilbakeKnapp'
 
 const It = () => {
   return (
     <div>
-        <h1 id="tittel">cock</h1>
+        <TilbakeKnapp />
     </div>
   )
 }

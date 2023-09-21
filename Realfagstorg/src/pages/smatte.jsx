@@ -1,8 +1,10 @@
 import React from 'react'
-
+import TilbakeKnapp from '../components/tilbakeKnapp'
 const smatte = () => {
   return (
-    <div>smatte</div>
+    <div>
+        <TilbakeKnapp />
+    </div>
   )
 }
 

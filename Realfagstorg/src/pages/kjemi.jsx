@@ -1,8 +1,11 @@
 import React from 'react'
+import TilbakeKnapp from '../components/tilbakeKnapp'
 
 const kjemi = () => {
   return (
-    <div>kjemi</div>
+    <div>
+        <TilbakeKnapp />
+    </div>
   )
 }
 
