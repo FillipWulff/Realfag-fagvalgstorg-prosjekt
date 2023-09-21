@@ -1,40 +1,47 @@
-import './App.css'
-
+import "./App.css"
+import Homepage from './pages/Homepage'
+import It from './pages/It';
+import biologi from './pages/biologi';
+import fysikk from './pages/fysikk';
+import geofag from './pages/geofag';
+import kjemi from './pages/kjemi';
+import rmatte from './pages/rmatte';
+import smatte from './pages/smatte';
+import tekforsk from './pages/tekforsk';
 function App() {
-
+  let Component
+  switch (window.location.pathname) {
+    case "/":
+      Component = Homepage
+      break;
+    case "/Fysikk":
+      Component = fysikk
+      break;
+    case "/Kjemi":
+      Component = kjemi
+      break;
+    case "/Informasjonsteknologi":
+      Component = It
+      break;
+    case "/sMatte":
+      Component = smatte
+      break;
+    case "/rMatte":
+      Component = rmatte
+       break;
+    case "/Tekforsk":
+      Component = tekforsk
+      break;
+    case "/Biologi":
+      Component= biologi
+      break;
+    case "/Geofag":
+      Component= geofag
+      break;
+    
+  }
   return (
-    <div id ="main">
-       <div id="valgmuligheter">
-        <a>
-          <button class="button-19"  role="button" >FYSIKK</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">BIOLOGI</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">KJEMI</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">INFORMASJONSTEKNOLOGI</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">TEKNOLOGI OF FORSKNINGSLÆRE</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">GEOFAG</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">MATEMATIKK FOR SAMFUNNSFAG</button>
-        </a>
-        <a>
-          <button class="button-19"  role="button">MATEMATIKK FOR REALFAG</button>
-        </a>
-      </div>
-      <div id="bakgrunn">
-        <h1>Realfag<br></br> valgtorg</h1>
-        <p>Trykk på faget du vil utforske</p>
-      </div>
-    </div>
+    <Component />
   )
 }
 
