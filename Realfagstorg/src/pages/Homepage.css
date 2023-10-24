@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  
+  
+  #bakgrunn {
+    background-image: url("./photos/image.png");  
+    background-size: 1400px;
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 100px;
+    position: absolute;
+  
+  }
+  
+  
+  h1{
+    font-family: Oslosans;
+    color: white;
+    padding-left: 50px;
+    font-size: 100px;
+    font-weight: 1200;
+  }
+  
+  p{
+    font-family: Oslosans;
+    color: white;
+    padding-left: 60px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  #valgmuligheter{
+    display: grid;
+    grid-template-columns: auto;
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    padding-left: 750px;
+    padding-top: 100px
+  
+  }
+  
+  
+  .button-19 {
+    transition: 0s;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 5px;
+    font-family: OsloSans;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .button-19:hover {
+    text-decoration: underline;
+  }
+  
