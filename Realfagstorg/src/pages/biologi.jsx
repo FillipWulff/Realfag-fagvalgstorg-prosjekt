@@ -8,7 +8,7 @@ const biologi = () => {
     <div>
       <TilbakeKnapp />
       <div style={{ backgroundImage: `url(${yourImage})`, backgroundSize:"1500px", width:"100vw", height:"100vh", marginTop:"0px",padding:"0px"}}>
-          <Overskrift valgtFag="Biologi" image={yourImage}/>
+          <Overskrift valgtFag="Biologi 1+2" image={yourImage}/>
       </div>
       <p>faef</p>
       <h1>Hei</h1>
