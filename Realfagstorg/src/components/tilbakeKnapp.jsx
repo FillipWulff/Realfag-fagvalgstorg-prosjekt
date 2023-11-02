@@ -5,7 +5,7 @@ const TilbakeKnapp = () => {
         window.location.href = "/"
     }
   return (
-    <div>
+    <div style={{position: 'fixed',}}>
         <button id ="tilbake" onClick={goToSite}>TILBAKE TIL HOVEDSIDEN</button>
     </div>
   )
