@@ -19,7 +19,7 @@ const Homepage = () => {
        <button class="button-19"  role="button" >INFORMASJONSTEKNOLOGI</button>
      </a>
      <a href='/Tekforsk'>
-       <button class="button-19"  role="button">TEKNOLOGI OF FORSKNINGSLÆRE</button>
+       <button class="button-19"  role="button">TEKNOLOGI OG FORSKNINGSLÆRE</button>
      </a>
      <a href='/Geofag'>
        <button class="button-19"  role="button">GEOFAG</button>
