@@ -1,7 +1,7 @@
 import React from 'react'
 import TilbakeKnapp from '../components/tilbakeKnapp'
 import Overskrift from '../components/overskrift'
-import yourImage from '../../public/photos/IT.jpeg'
+import yourImage from '../photos/geofagBg.png'
 
 const geofag = () => {
   return (

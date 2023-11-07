@@ -1,13 +1,13 @@
 import React from 'react'
 import TilbakeKnapp from '../components/tilbakeKnapp'
 import Overskrift from '../components/overskrift'
-import yourImage from '../../public/photos/IT.jpeg'
+import yourImage from '../photos/biologiBg.png'
 
 const biologi = () => {
   return (
     <div>
       <TilbakeKnapp />
-      <div style={{ backgroundImage: `url(${yourImage})`, backgroundSize:"1500px", width:"100vw", height:"100vh", marginTop:"0px",padding:"0px"}}>
+      <div style={{ backgroundImage: `url(${yourImage})`, backgroundSize:"1400px", width:"100vw", height:"100vh", marginTop:"0px",padding:"0px"}}>
           <Overskrift valgtFag="Biologi 1+2" image={yourImage}/>
       </div>
       <p>faef</p>
