@@ -6,7 +6,9 @@ const TilbakeKnapp = () => {
     }
   return (
     <div style={{position: 'fixed',}}>
-        <button id ="tilbake" onClick={goToSite}>TILBAKE TIL HOVEDSIDEN</button>
+        <button id ="tilbake" onClick={goToSite}>
+        TILBAKE
+        </button>
     </div>
   )
 }
