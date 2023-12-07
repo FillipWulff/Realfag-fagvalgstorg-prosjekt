@@ -2,10 +2,16 @@ import React from 'react'
 import TilbakeKnapp from '../components/tilbakeKnapp'
 import Overskrift from '../components/overskrift'
 import yourImage from '../photos/fysikkBg.png'
+import PendulumAnimation from '../components/fysikkAnimasjon'
 import Knappvalg from '../components/knappValg'
 import Eksplosjon from '../photos/eksplosjonFY1.png'
 
+
+
+
 const fysikk = () => {
+  
+
   return (
     <div>
         <TilbakeKnapp />
@@ -56,6 +62,10 @@ const fysikk = () => {
           forunderlig og fantastisk.
           </p>
           <img src={Eksplosjon} alt="Bilde av en eksplosjon" style={{width:"500px", marginLeft:"700px", marginBottom:"500px", position:"absolute"}}></img>
+        </div>
+        <div id='fysikkCenter'>
+
+        <PendulumAnimation />
         </div>
     </div>
   )
